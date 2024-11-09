@@ -62,7 +62,7 @@ def math_quiz():
                 break  # if the input was successfully changed to integer, leave the loop
             except ValueError:
                 # if the input was no integer, print an error message
-                print("Invalid input! Please enter a valid integer.")
+                print("Wrong input. Please enter a valid integer.")
                 useranswer = input("Your answer: ")  # ask again for user input
 
         #  tests if the user's answer is correct
