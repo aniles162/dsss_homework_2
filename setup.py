@@ -1,21 +1,17 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='dsss_homework_2',  
-    version='0.1',           
-    packages=find_packages(include=['math_quiz', 'math_quiz.py', 'tests_math_quiz.py', '__init__.py']),  
-    install_requires=[
-        
-    ],
-    entry_points={
-        'console_scripts': [
-            'math_quiz = math_quiz.math_quiz:main',  
-        ],
-    },
-    include_package_data=True,  
+    name="math_quiz",
+    version="0.1.0",
+    description="Math_quiz",
+    author="Selina Werner",
+    author_email="aniles162@gmail.com",
+    url="https://github.com/aniles162/dsss_homework_2.git",
+    packages=find_packages(),
     classifiers=[
-        'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: MIT License',
-        'Operating System :: OS Independent',
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
     ],
+    python_requires='>=3.6',
 )
