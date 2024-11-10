@@ -7,7 +7,7 @@ setup(
     author="Selina Werner",
     author_email="aniles162@gmail,com",
     url="https://github.com/aniles162/dsss_homework_2.git",
-    packages=find_packages(),
+    packages=find_packages(include=['math_quiz', 'math_quiz.*']),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
