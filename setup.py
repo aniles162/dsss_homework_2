@@ -5,7 +5,7 @@ setup(
     version="0.1.0",
     description="Math_quiz",
     author="Selina Werner",
-    author_email="aniles162@gmail.com",
+    author_email="aniles162@gmail,com",
     url="https://github.com/aniles162/dsss_homework_2.git",
     packages=find_packages(),
     classifiers=[
